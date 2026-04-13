@@ -1,0 +1,28 @@
+# --- Environments & Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Python: Caches & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Editor Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Project Specific ---
+*.log
+data/raw/*
+!data/raw/.gitkeep
